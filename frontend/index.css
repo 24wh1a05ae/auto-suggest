@@ -2,3 +2,17 @@ h1{
     color: red
     ;
 }
+#home-card{
+    text-align: center;
+    /* border: 3px;
+    border-color: black;
+    border-style: solid; */
+    border: 3px solid blue;
+}
+
+#p2{
+    color: blue;
+}
+#home-card:hover{
+    background-color: lavender;
+}
