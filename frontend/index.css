@@ -7,11 +7,11 @@ h1{
     /* border: 3px;
     border-color: black;
     border-style: solid; */
-    border: 3px solid blue;
+    border: 3px solid rgb(8, 8, 9);
 }
 
 #p2{
-    color: blue;
+    color: rgb(43, 43, 167);
 }
 #home-card:hover{
     background-color: lavender;
@@ -21,4 +21,45 @@ h1{
     background-color: rgb(209, 85, 145);
     height: 25px;
     padding-top: 5px;
+}
+#card{
+    width: 320px;
+    margin: 40px auto;
+    border: 3px solid black;      /* Black border around whole card */
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+#card-img{
+    display: flex;
+    justify-content: center;
+}
+
+#card-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#card-name{
+    margin: 15px 0 10px;
+    font-size: 32px;
+    color: black;
+}
+
+#card-gender{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+#card button{
+    width: 100%;
+    border: 2px solid black;
+    background: white;
+}
+
+#card button:hover{
+    background: lightgray;
 }
